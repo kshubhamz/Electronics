@@ -1,0 +1,24 @@
+.card-body {
+    text-align: justify;
+}
+
+.card-horizontal {
+    border: 0.5px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin-top: 1rem;
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+.small-img {
+    width: 10em;
+    height: 10em;
+}
+
+.card-horizontal:hover {
+    background-color: #ebebe0;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    color: #392613;
+}
